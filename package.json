@@ -1,0 +1,23 @@
+{
+  "name": "loki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "imports": {
+    "#bin/*": "./bin/*.js",
+    "#src/*": "./src/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@athenna/common": "^4.43.0",
+    "@athenna/config": "^4.23.0",
+    "@athenna/ioc": "^4.23.0",
+    "@athenna/view": "^4.25.0",
+    "reflect-metadata": "^0.2.2",
+    "winston": "^3.13.0",
+    "winston-loki": "^6.1.2"
+  }
+}
